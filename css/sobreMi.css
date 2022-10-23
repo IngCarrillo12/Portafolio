@@ -1,0 +1,15 @@
+.sobreMi{
+    background-color: var(--background-azul-claro);
+    display: flex;
+    flex-direction: column;
+    padding:2rem 1rem;
+}
+.sobreMi__title{
+    text-align: start;
+}
+.sobreMi__descripcion{
+    padding-bottom: 1rem;
+}
+.sobreMi__firma{
+    width: 140px;
+}

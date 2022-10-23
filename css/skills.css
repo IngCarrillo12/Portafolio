@@ -1,0 +1,7 @@
+.skills{
+    background-color: var(--background-gris-oscuro);
+    padding: 2rem 1rem;
+}
+.skills__title{
+    text-align: center;
+}

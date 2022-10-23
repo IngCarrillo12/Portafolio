@@ -1,0 +1,147 @@
+@media screen and (min-width:768px) {
+    /*HEADER*/
+    .header{
+        padding-left:3rem;
+        padding-right: 3rem;
+    }
+    .item__correo{
+        font-weight: 700;
+    }
+
+    /*PRESENTACION*/
+    .presentacion{
+        flex-direction: row-reverse;
+        align-items: center;
+        padding: 2rem 4rem 2rem;
+    }
+    .presentacion__descripcion{
+        padding-right: 2rem;
+    }
+    
+    .presentacion__foto{
+        width: 30%;
+        height: 30%;
+    }
+    .presentacion__redes{
+        width: 80%;
+    }
+    .item__redes{
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    .icono__flecha{
+        width: 10px;
+    }
+
+    /*SOBRE MI*/
+    .sobreMi{
+        padding:2rem 4rem;
+    }
+    /*SKILLS HOBBIES*/
+    .skills{
+        padding: 2rem 4rem;
+    }
+    .hobbies{
+        padding: 2rem 4rem;
+    }
+    .contenedor__card{
+        width: calc(33.33% - 2rem);
+    }
+
+    /*FORMACIONES*/
+    .formacion{
+        padding: 2rem 4rem;
+    }
+    .container__estudiado{
+        width: calc(33.33% - 2rem);
+        margin: 1rem 1rem;
+    }
+
+    /*PROYECTOS*/
+    .proyectos{
+        padding: 2rem 4rem;
+    }
+    .contenedor__proyecto{
+        width: 100%;
+        margin-bottom: 4rem;
+    }
+    .proyecto__img{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .nav__list{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 50%;
+    }
+    .item__pc{
+        display: block;
+    }
+    .presentacion__foto{
+        width: 50%;
+        height: 50%;
+    }
+    .presentacion__title{
+        font-size: 3.3rem;
+        text-align: start;
+    }
+    .descripciones{
+        font-size: 1.4rem;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .item__redes{
+        font-size: 1rem;
+    }
+    .title{
+        font-size: 2rem;
+    }
+    .contenedor{
+        justify-content: flex-start;
+    }
+    .contenedor__card{
+        width: calc(20% - 2rem);
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .contenedor__proyecto{
+        display: flex;
+        flex-direction:row;
+        align-items: center;
+        margin-bottom: 4rem;
+        width: 100%;
+    }
+    .container__img{
+        height: 150px;
+        margin: 0 auto;
+    }
+    .contenedor__proyecto:nth-child(2){
+        flex-direction: row-reverse;
+    }
+    .proyecto__info{
+        padding-left: 1.5rem;
+    }
+    .proyecto_nombre{
+        font-size: 1.5rem;
+    }
+    .proyecto__descripcion{
+        font-size: 1rem;
+    }
+    .formulario{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .formulario__img{
+        display: inline;
+        width: 40%;
+        margin-right: 3rem;
+    }
+    .form{
+        width: 40%;
+    }
+    
+}

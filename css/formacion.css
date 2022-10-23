@@ -1,0 +1,24 @@
+.formacion{
+    background-color: var(--background-azul-claro);
+    padding: 2rem 1rem;
+}
+.formacion__title{
+    text-align: center;
+}
+.container__estudiado{
+    width: 100%;
+    margin: 1rem 0;
+}
+.container__img{
+    background-color: var(--background-blanco);
+    padding: 2rem;
+    text-align: center;
+}
+.estudiado__title{
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 1rem 0 .2rem
+}
+.estudiado-fecha{
+    font-size: .9rem;
+}

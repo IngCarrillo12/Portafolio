@@ -1,0 +1,35 @@
+.presentacion{
+    padding: 1rem 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+}
+.presentacion__foto{
+    width: 110px;
+    height: 120px;
+    border-radius: 50%;
+    padding-bottom: 1rem;
+}
+.presentacion__title{
+    text-align: start;
+}
+.presentacion__descripcion{
+    padding-bottom: 1rem;
+}
+.presentacion__redes{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.item__redes{
+    font-size: .85rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--font-color);
+}
+.icono__flecha{
+    margin-left: 2px;
+}
+
+.item__redes:hover{
+    font-weight: bold;
+}
