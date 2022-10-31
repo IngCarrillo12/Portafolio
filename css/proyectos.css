@@ -11,6 +11,7 @@
 }
 .proyecto__img{
     width: 100%;
+    max-width: 800px;
 }
 .proyectos__title{
     text-align: center;

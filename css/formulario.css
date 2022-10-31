@@ -82,15 +82,12 @@
 
 
 .submit:hover{
-    border: 3px solid var(--color-botones);
+    border:none;
     font-size:16px;
-    color: var(--color-botones);
+    color: #fff;
+    background-color: var(--color-botones);
 }
 
-
-.form-input:focus + .form-title label, .form-input:not(:placeholder-shown) + .form-title label{
-    color:  rgb(27, 255, 84);
-}
 .form-txtarea:focus, .form-txtarea:not(:placeholder-shown){
     border-color: var(--color-botones);
     outline: none;
